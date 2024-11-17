@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style-home.css">
+    <script src="https://kit.fontawesome.com/5772a49a2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="body-container" id="bodymain">
+        <div class="navbar">
+            <nav>
+                <!-- <img src = "logo2.png" class="logo"> -->
+                <p class="logo">Priya</p>
+                <ul>
+                    <li><button id="daynight" class="moon"><i class="fa-solid fa-moon"></i></button></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#movies">Projects</a></li>
+                    <li><a href="#awards">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header">
+            <div class="container">
+
+
+                <div class="header-text" id="hometext">
+                    <p>Full Stack Developer/XR Developer</p>
+                    <h1>Hi, I'm <span>Priyadharshini</span><br> From Tiruppur</h1>
+                </div>
+                <div class="gif">
+                    
+                </div>
+
+            </div>
+        </div>
+        <!--------------about------------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="myimage1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="line-spacing">As I continue my artistic journey, I look forward to exploring new
+                            horizons and taking on diverse and challenging roles. Juggling front-end finesse with XR
+                            madness, keeping things both pixel-perfect and mind-bending. Obsessed with pushing the
+                            boundaries of technology, building immersive experiences that leave you breathless.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li class="line-spacing"><span>Full Stack Developer</span><br>Web App Development</li>
+                                <li class="line-spacing"><span>XR Developer</span><br>Creating AR/VR Applications</li>
+                                <li class="line-spacing"><span>App Developer</span><br>Building Android/iOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li class="line-spacing"><span>2021</span><br>Exposys Data Labs</li>
+                                <li class="line-spacing"><span>2022</span><br>Nandha Info Tech Solutions</li>
+                                <li class="line-spacing"><span>2023</span><br>Smart GC Pro Ed Tech Lmtd</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+
+                                <li class="line-spacing"><span>2021-Current</span><br>Bannari Amman Institute of
+                                    Technology</li>
+                                <li class="line-spacing"><span>2019</span><br>Sri Aanoor Vidyalaya Matric Hr Sec School
+                                </li>
+                                <li class="line-spacing"><span>2017</span><br>Bharat Matriculation School</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------awards-------->
+        <div id="awards">
+            <div class="container">
+                <h1 class="sub-title">My Achievements</h1>
+                <div class="awards-list" id="awards-card">
+                    <div>
+                        <i class="fa-solid fa-earth-americas" id="icons"></i>
+
+                        <h2>Brics Skills<br>'23</br></h2>
+                        <p>Honoured with Silver for building a learning tool with cognitive functions
+                            in AR/VR domain</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-skull-crossbones" id="icons"></i>
+                        <h2>Smart India Hackathon</h2>
+                        <p>Millions of minds, 1 critical mission: Our VR equips heroes for nuclear disaster response
+                            (Proud SIH Finalist!)</p>
+                        <a href="https://www.linkedin.com/posts/priyadharshini-elangovan28_sih2023-innovation-safetytraining-activity-7189860418037731328-zAJY?utm_source=share&utm_medium=member_desktop">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-critical-role" id="icons"></i>
+                        <h2>BIT<br>Hacks'22<br></h2>
+                        <p>Unleash AR's magic in real estate: let buyers explore virtually & showcase properties Bit Hacks runner-up!</p>
+                        <a href="https://drive.google.com/file/d/1qn8-NIMT03NZ5-ia2CYr-JoHH15-uU00/view?usp=sharing">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--------movies------->
+        <div id="movies">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="movie-list">
+                    <div class="work">
+                        <img src="real_estate.png">
+                        <div class="layer" id="project-card">
+                            <h3>Real Estate in AR</h3>
+                            <p>AR transforms real estate: Say goodbye to static photos, hello to virtual experiences!
+                                Step inside, stay on your couch. AR house tours & virtual furniture, all from home.
+                            </p>
+                            <a href="https://drive.google.com/file/d/1L-FFg7JSwHpN1vH-CyyydBTKR_4f1Dxp/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="books.jpeg">
+                        <div class="layer" id="project-card">
+                            <h3>Course Exemption Portal</h3>
+                            <p>Skip the paperwork, speed up approvals. A streamlined path for exemptions—your internship counts!
+                            </p>
+                            <a href="https://drive.google.com/file/d/1P7C7ItY9_DHVNFUExQiXD2QAfO5A14VR/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="home.jpg">
+                        <div class="layer" id="project-card">
+                            <h3>Real Estate Webpage</h3>
+                            <p>From brick-and-mortar to clicks and mortar: Building modern real estate empires with the power of MERN.</p>
+                            <a href="https://drive.google.com/file/d/1r_KgNGeOUnooL7cqTICu7VMIMImAx0RZ/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="investments.jpg">
+                        <div class="layer" id="project-card">
+                            <h3>PortFolio Investment Calculator</h3>
+                            <p>
+                                Know if your company's investments are in the green or need a course correction!</p>
+                            <a href="https://drive.google.com/file/d/1LQJVBnWoS8Lfky9CIkIVMIhlenkrMUi9/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="chernobyl.jpg">
+                        <div class="layer" id="project-card">
+                            <h3>VR Nuclear Disaster Management</h3>
+                            <p>Echoes of disaster, lessons untold.
+                                Chernobyl's flames await, VR trains you to beat.
+                                Master response, learn from the scars.
+                                Save the future, VR prepares.</p>
+                            <a href="https://www.linkedin.com/posts/priyadharshini-elangovan28_chernobyl-chernobylnucleardisaster-vrshield-activity-7190271126952898561-yNEs?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="check-in.jpg">
+                        <div class="layer" id="project-card">
+                            <h3>VR Secure Skies</h3>
+                            <p> Seamless check-in, expert on the spot. VR trains you sharp, keeps every flight on the dot.
+                                Dangerous goods, no room for mistakes. VR guides you clear, for safety's sake.</p>
+                            <a href="https://drive.google.com/file/d/1XAhrr8vlcbIWjGyDpZ91VjbU2xhGyZuY/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                
+                </div>
+                
+            </div>
+        </div>
+        <!-------------contact-------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row1">
+                    <div class="contact-left-column">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p id="spacing"><i class="fa-solid fa-envelope-circle-check"></i>priyadharshini.ad21@gmail.com</p>
+                        
+                        <div class="social-icons">
+                            
+                            <a href="https://github.com/priyaelangovan723"><i class="fa-brands fa-github"></i></i></a>
+                            <a href="https://www.linkedin.com/in/priyadharshini-elangovan28/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Final_Resume.pdf" class=" btn">Download CV</a>
+                    </div>
+                    <div class="contact-right-column">
+                        <form action="https://script.google.com/a/macros/bitsathy.ac.in/s/AKfycbzK8M3MRvt17Y_uC-sjdCp1kVcpVERroCKeA0GAd5y0D2nhd-5-EZmsUVIue22DwOBG/exec" method="POST" id="contactForm">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your EmailId" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn2">Submit</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            // Wait for a moment to ensure the form data is sent
+            setTimeout(() => {
+                // Reset the form fields
+                this.reset();
+            }, 1); // Adjust delay if needed
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        let bodycontainer = document.getElementById("bodymain")
+        let daynight = document.getElementById("daynight")
+        daynight.onclick = function( ){
+            bodycontainer.classList.toggle('night')
+        }
+    </script>
+</body>
+
+</html>
